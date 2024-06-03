@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+:root{
+--cor-da-letra:rgb(255, 3, 3);
+--cor-de-fundo:#ffee00;
+--fundo-senha:#777e17;
+--fundo-texto: #f88400;
+--borda:#ff03d5;
+--font2:"Seymour One", sans-serif;
+--font:"chivo", "sans-serif";
+}
+body{
+    color: var(--cor-da-letra);
+    background-color:var(--cor-de-fundo);
+    font-family: var(--font);
+}
+
+.tituloprincipal{
+    font-size:50px;
+    font-family: var(--font2);
+}
