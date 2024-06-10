@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+:root{
+--cor-da-letra:rgb(255, 255, 255);
+--cor-de-fundo:#000000;
+--fundo-senha:#92928c;
+--fundo-texto: #7a746c;
+--borda:#fdfafa;
+--font2:"Seymour One", sans-serif;
+--font:"chivo", "sans-serif";
+}
+body{
+    color: var(--cor-da-letra);
+    background-color:var(--cor-de-fundo);
+    font-family: var(--font);
+    text-align: center;
+}
+
+.tituloprincipal{
+    font-size:50px;
+    font-family: var(--font2);
+    text-align: center;
+}
+.conteudo{
+
+    text-align: center;
+    font-size: 35px;
+    }
+    
+    .img{
+    
+    width: 80px;
+    }
+
+    .titulosecundario{
+        text-align: center;
+        font-size: 23px;
+        }
+
+    .conteudo-titulo{
+    text-align:center;
+    margin-top:80px;
+    }
+
+    .conteudo-senha{
+        margin-top: 80px;
+        background: var(--fundo-senha);
+        padding: 1px;
+        border-bottom: 5x solid var(--borda);
+    }
+
+    #campo-senha{
+        background-color:var (--fundo-senha);
+        border:none;
+        color:var (letra);
+        width:30%;
+    }
+
+            
